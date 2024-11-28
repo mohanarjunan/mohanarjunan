@@ -60,8 +60,9 @@
 ![Jenkins](https://img.shields.io/badge/Jenkins-v2.463.0-pink?logo=jenkins&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-red?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-purple?logo=github)
-![GitLab](https://img.shields.io/badge/GitLab-orange?logo=gitlab)
+![GitLab](https://img.shields.io/badge/GitLab-white?logo=gitlab)
 ![ShellScript](https://img.shields.io/badge/Shell_Script-black?logo=shell)
+![SpringBoot](https://img.shields.io/badge/Spring_Boot-grey?logo=spring)
 
 ## 🔗 Reach Me
 
