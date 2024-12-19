@@ -1,19 +1,18 @@
-
 # # Hi, I'm Mohan 👋
 
-## 🚀   About Me
+## 🚀 About Me
 
- - 🧑🏻‍💻 DevOps Engineer of Finsurge Pte. Ltd.
- - 🎓 MCA Graduate
- - ✨ Passionate about Full-Stack Development
- 
- > Development is not just about writing code; it's a journey of perpetual learning and innovation, where each challenge is a stepping stone to mastery - ***Meeta Ahluwalia***
- 
- ## 📌 Roadmap
+- 🧑🏻‍💻 DevOps Engineer of Finsurge Pte. Ltd.
+- 🎓 MCA Graduate
+- ✨ Passionate about Full-Stack Development
 
- [![roadmap.sh](https://roadmap.sh/card/wide/66768dcddf3918909ea3d6d1?variant=dark)](https://roadmap.sh)
- 
- ## 🧑🏻‍💻 Tech Stack
+> Development is not just about writing code; it's a journey of perpetual learning and innovation, where each challenge is a stepping stone to mastery - **_Meeta Ahluwalia_**
+
+## 📌 Roadmap
+
+[![roadmap.sh](https://roadmap.sh/card/wide/66768dcddf3918909ea3d6d1?variant=dark)](https://roadmap.sh)
+
+## 🧑🏻‍💻 Tech Stack
 
 ![C/C++](https://img.shields.io/badge/C/C++-Core-blue?logo=cplusplus)
 ![Java](https://img.shields.io/badge/Java-Core-orange)
