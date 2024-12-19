@@ -11,7 +11,6 @@
 ## 📌 Roadmap
 
 [![roadmap.sh](https://roadmap.sh/card/wide/66768dcddf3918909ea3d6d1?variant=dark)](https://roadmap.sh)
-[![roadmap.sh](https://roadmap.sh/card/wide/66768dcddf3918909ea3d6d1?variant=dark)](https://roadmap.sh)
 
 ## 🧑🏻‍💻 Tech Stack
 
