@@ -75,7 +75,7 @@
 ```bash
 #Mail
 im.mohanarjunan@gmail.com
-im.mohan@outlook.in
+mohan.arjunan@hotmai.com
 
 #Phone
 +91 6374856198
