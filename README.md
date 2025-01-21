@@ -77,3 +77,8 @@
 [![Outlook](https://img.shields.io/badge/mohan.arjunan@hotmail.com-darkblue?logo=gmail&logoColor=white&style=for-the-badge)](mailto:mohan.arjunan@hotmail.com)
 [![Gmail](https://img.shields.io/badge/im.mohanarjunan@gmail.com-darkorange?logo=google&logoColor=white&style=for-the-badge)](mailto:im.mohanarjunan@gmail.com)
 
+## 🌱 Stats
+
+[!GitHub Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohanarjunan&theme=github)
+[!GitHub Card](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mohanarjunan&theme=github)
+
