@@ -8,9 +8,12 @@
 
 > Development is not just about writing code; it's a journey of perpetual learning and innovation, where each challenge is a stepping stone to mastery - **_Meeta Ahluwalia_**
 
-## 📌 Roadmap
+## 📌 Roadmap & 🌱 Stats
 
-[![roadmap.sh](https://roadmap.sh/card/wide/66768dcddf3918909ea3d6d1?variant=dark)](https://roadmap.sh)
+![roadmap.sh](https://roadmap.sh/card/wide/66768dcddf3918909ea3d6d1?variant=dark)
+![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohanarjunan&theme=default)
+![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mohanarjunan&theme=default)
+![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohanarjunan&theme=github)
 
 ## 🧑🏻‍💻 Tech Stack
 
@@ -77,9 +80,4 @@
 [![Outlook](https://img.shields.io/badge/mohan.arjunan@hotmail.com-darkblue?logo=gmail&logoColor=white&style=for-the-badge)](mailto:mohan.arjunan@hotmail.com)
 [![Gmail](https://img.shields.io/badge/im.mohanarjunan@gmail.com-darkorange?logo=google&logoColor=white&style=for-the-badge)](mailto:im.mohanarjunan@gmail.com)
 
-## 🌱 Stats
-
-![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohanarjunan&theme=default)
-![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mohanarjunan&theme=default)
-![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohanarjunan&theme=github)
 
