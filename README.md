@@ -10,10 +10,14 @@
 
 ## 📌 Roadmap & 🌱 Stats
 
-![roadmap.sh](https://roadmap.sh/card/wide/66768dcddf3918909ea3d6d1?variant=dark)
+<center>
+
 ![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohanarjunan&theme=default)
 ![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mohanarjunan&theme=default)
 ![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohanarjunan&theme=github)
+![roadmap.sh](https://roadmap.sh/card/wide/66768dcddf3918909ea3d6d1?variant=dark)
+
+</center>
 
 ## 🧑🏻‍💻 Tech Stack
 
