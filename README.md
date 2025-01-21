@@ -79,6 +79,7 @@
 
 ## 🌱 Stats
 
-[!GitHub Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohanarjunan&theme=github)
-[!GitHub Card](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mohanarjunan&theme=github)
+![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohanarjunan&theme=default)
+![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mohanarjunan&theme=default)
+![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohanarjunan&theme=github)
 
