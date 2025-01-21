@@ -62,6 +62,7 @@
 ![GitLab](https://img.shields.io/badge/GitLab-white?logo=gitlab)
 ![ShellScript](https://img.shields.io/badge/Shell_Script-black?logo=shell)
 ![SpringBoot](https://img.shields.io/badge/Spring_Boot-grey?logo=spring)
+![Redis](https://img.shields.io/badge/Redis_Cache-red?logo=redis&logoColor=white)
 
 ## 🔗 Reach Me
 
