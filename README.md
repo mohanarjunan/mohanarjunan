@@ -10,7 +10,7 @@
 
 ## 📌 Roadmap & 🌱 Stats
 
-<div style="display: flex; justify-content: center">
+<div align="center">
 
 ![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohanarjunan&theme=default)
 ![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mohanarjunan&theme=default)
