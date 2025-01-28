@@ -90,6 +90,7 @@
 <hr/>
 
 <marquee behavior="scroll" direction="left" scrollamount="5">
+  
 <div style="display:inline-flex; gap:5px;">
 <div style="display: flex; justify-content:center; align-items: center; background-color: white; border-radius: 50%; min-width: 50px; max-width: 50px; min-height: 50px;max-height: 50px; padding: 10px; position: relative;">
 <img src="tech-stack/apace.svg" alt="android-studio.png" width="50" height="50" style="position: absolute; top: 37%;" />
@@ -321,4 +322,5 @@
 />
 </div>
 </div>
+  
 </marquee>
