@@ -1,6 +1,6 @@
 {
-  "name": "profile",
-  "version": "0.1.0",
+  "name": "mohanarjunan-portfolio",
+  "version": "v3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
