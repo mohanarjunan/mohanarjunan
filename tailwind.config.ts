@@ -9,10 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        dark: "#171717",
+        light: "#ffffff"
       },
-    },
+      fontFamily: {
+        avenir: "avenir",
+        akshar: "akshar"
+      }
+    }
   },
   plugins: [],
 } satisfies Config;

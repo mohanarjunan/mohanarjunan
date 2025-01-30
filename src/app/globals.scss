@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../utils/scss/variables";
+
+*, *::after, *::before {
+  font-family: $akshar;
+  font-weight: normal;
+}
