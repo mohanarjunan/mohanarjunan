@@ -8,10 +8,6 @@
 
 > Development is not just about writing code; it's a journey of perpetual learning and innovation, where each challenge is a stepping stone to mastery - **_Meeta Ahluwalia_**
 
-## 📌 Roadmap
-
-[![roadmap.sh](https://roadmap.sh/card/wide/66768dcddf3918909ea3d6d1?variant=dark)](https://roadmap.sh)
-
 ## 🧑🏻‍💻 Tech Stack
 
 ![C/C++](https://img.shields.io/badge/C/C++-Core-blue?logo=cplusplus)
@@ -62,21 +58,33 @@
 ![GitLab](https://img.shields.io/badge/GitLab-white?logo=gitlab)
 ![ShellScript](https://img.shields.io/badge/Shell_Script-black?logo=shell)
 ![SpringBoot](https://img.shields.io/badge/Spring_Boot-grey?logo=spring)
+![Redis](https://img.shields.io/badge/Redis_Cache-red?logo=redis&logoColor=white)
+
+
+## 🌱 Stats
+
+<div align="center">
+
+![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohanarjunan&theme=default)
+![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mohanarjunan&theme=default)
+![GitHub Profile](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohanarjunan&theme=github)
+![roadmap.sh](https://roadmap.sh/card/wide/66768dcddf3918909ea3d6d1?variant=dark)
+
+</div>
+
 
 ## 🔗 Reach Me
 
 [![portfolio](https://img.shields.io/badge/Portfolio-black?logo=nextdotjs&logoColor=white&style=for-the-badge)](https://mohan.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/Linked_In-blue?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/mohan-a-65a911247/)
+[![LinkedIn](https://img.shields.io/badge/Linked_In-blue?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/mohanarjunan/)
 [![Twitter](https://img.shields.io/badge/Twitter-black?logo=x&logoColor=white&style=for-the-badge)](https://x.com/_dowdy_)
 [![Instagram](https://img.shields.io/badge/Instagram-pink?logo=instagram&logoColor=black&style=for-the-badge)](https://instagram.com/__dowdy/)
-[![GitLab](https://img.shields.io/badge/GitLab-orange?logo=gitlab&logoColor=white&style=for-the-badge)](https://gitlab.com/mohan.env/)
-[![GitHub](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=white&style=for-the-badge)](https://github.com/davidmohan/)
+[![GitLab](https://img.shields.io/badge/GitLab-orange?logo=gitlab&logoColor=white&style=for-the-badge)](https://gitlab.com/mok.dev/)
+[![GitHub](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=white&style=for-the-badge)](https://github.com/mohanarjunan/)
 
-```bash
-#Mail
-im.mohanarjunan@gmail.com
-mohan.arjunan@hotmai.com
+[![Whatsapp](https://img.shields.io/badge/Whatsapp-darkgreen?logo=whatsapp&logoColor=white&style=for-the-badge)](https://wa.me/916374856198)
+[![Outlook](https://img.shields.io/badge/mohan.arjunan@hotmail.com-darkblue?logo=gmail&logoColor=white&style=for-the-badge)](mailto:mohan.arjunan@hotmail.com)
+[![Gmail](https://img.shields.io/badge/im.mohanarjunan@gmail.com-darkorange?logo=google&logoColor=white&style=for-the-badge)](mailto:im.mohanarjunan@gmail.com)
 
-#Phone
-+91 6374856198
-```
+
+<hr/>
