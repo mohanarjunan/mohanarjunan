@@ -99,11 +99,8 @@
 <div align="center">
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mohanarjunan&layout=compact&theme=github)
-
 ![Mohan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mohanarjunan&show_icons=true&theme=github&rank_icon=github)  
-
 ![roadmap.sh](https://roadmap.sh/card/wide/66768dcddf3918909ea3d6d1?variant=dark)
-
 ![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohanarjunan&theme=github)
 
 </div>
