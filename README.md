@@ -104,6 +104,4 @@
 ![roadmap.sh](https://roadmap.sh/card/wide/66768dcddf3918909ea3d6d1?variant=dark)
 ![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohanarjunan&theme=github)
 
-</div>
-
- <hr />
+</div> <hr />
