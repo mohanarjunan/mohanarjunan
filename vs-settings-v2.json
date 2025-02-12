@@ -1,208 +1,176 @@
 {
-    "liveServer.settings.CustomBrowser": "chrome",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
-    },
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": "./src/assets/css"
-        }
-    ],
-    "liveSassCompile.settings.excludeList": [
-      "/**/node_modules/**",
-      "/.vscode/**",
-      "/compile/**",
-      "/**/*.min.css",
-      "/**/*.map"
-    ],
-  "liveSassCompile.settings.includeItems": [
-      "./src/**/*.scss",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css",
+    }
   ],
-    "liveSassCompile.settings.openOutputPanel": false,
-    "explorer.confirmDelete": false,
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "php.debug.executablePath": null,
-    "open-php-html-js-in-browser.selectedBrowser": "Chrome",
-    "security.workspace.trust.untrustedFiles": "open",
-    "git.autofetch": true,
-    "git.enableSmartCommit": true,
-    "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "git.confirmSync": false,
-    "workbench.startupEditor": "none",
-    "css.completion.completePropertyWithSemicolon": false,
-    "scss.completion.completePropertyWithSemicolon": false,
-    "editor.wordWrap": "on",
-    "debug.onTaskErrors": "debugAnyway",
-    "workbench.editorAssociations": {
-        "*.exe": "default"
-    },
-    "code-runner.runInTerminal": true,
-    "vsintellicode.features.python.deepLearning": "enabled",
-    "explorer.confirmDragAndDrop": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.fontLigatures": true,
-    "liveSassCompile.settings.generateMap": false,
-    "[python]": {
-        "editor.formatOnType": true
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "terminal.integrated.fontWeight": "normal",
-    "terminal.integrated.fontSize": 16,
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "editor.fontFamily": "Operator Mono",
-    "editor.fontWeight": "normal",
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-          {
-            "scope": [
-              "comment",
-              "keyword",
-              "storage",
-              // "string",
-              // "storage.modifier",
-              // "meta.function",
-              "keyword.operator.new",
-              "variable.parameter",
-              // "variable.language",
-              // "meta.object-literal.key",
-              // "meta.block"
-              // "constant.numeric",
-              // "keyword.operator",
-              "entity.name.tag",
-              "entity.name.function",
-              // "variable.other",
-              // "entity.other.attribute-name",
-              // "entity.name.type.class",
-            ],
-            "settings": {
-              "fontStyle": "italic"
-            }
-          },
-          {
-            "scope": [
+  "liveSassCompile.settings.excludeList": [
+    "/**/node_modules/**",
+    "/.vscode/**",
+    "/compile/**",
+    "/**/*.min.css",
+    "/**/*.map"
+  ],
+  "liveSassCompile.settings.includeItems": [
+    "/src/**/*.scss",
+    "/assets/**/*.scss"
+  ],
+  "liveSassCompile.settings.openOutputPanel": false,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.iconTheme": "material-icon-theme",
+  "php.debug.executablePath": null,
+  "open-php-html-js-in-browser.selectedBrowser": "Chrome",
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.confirmSync": false,
+  "workbench.startupEditor": "none",
+  "css.completion.completePropertyWithSemicolon": false,
+  "scss.completion.completePropertyWithSemicolon": false,
+  "editor.wordWrap": "on",
+  "debug.onTaskErrors": "debugAnyway",
+  "workbench.editorAssociations": {
+    "*.exe": "default"
+  },
+  "code-runner.runInTerminal": true,
+  "vsintellicode.features.python.deepLearning": "enabled",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "onFocusChange",
+  "editor.fontLigatures": true,
+  "liveSassCompile.settings.generateMap": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontSize": 16,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "vscode.html-language-features",
+  "editor.fontFamily": "Operator Mono Medium",
+  "editor.fontWeight": "normal",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword",
+          "storage",
+          // "string",
+          // "storage.modifier",
+          // "meta.function",
+          "keyword.operator.new",
+          "variable.parameter",
+          // "variable.language",
+          // "meta.object-literal.key",
+          // "meta.block"
+          // "constant.numeric",
+          // "keyword.operator",
+          "entity.name.tag",
+          "entity.name.function",
+          // "variable.other",
+          "entity.other.attribute-name"
+          // "entity.name.type.class",
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [],
+        "settings": {
+          "foreground": "#db0c0c"
+          // "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["support.type.property-name"],
+        "settings": {
+          "foreground": "#7ecff7",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "entity.other.attribute-name.class.css",
+          "entity.name.type.interface"
+        ],
+        "settings": {
+          "foreground": "#f6a96b"
+          // "fontStyle": "normal"
+        }
+      },
+      {
+        "scope": [
+          "entity.other.attribute-name.id.css"
+          // "storage",
+        ],
 
-            ],
-            "settings": {
-              // "foreground": "#5cd451",
-              // "fontStyle": "italic"
-            }
-          },
-          {
-            "scope": [
-              "support.type.property-name",
-            ],
-            "settings": {
-                // "foreground": "#7ecff7",
-                "fontStyle": "italic"
-            }
-          },
-          {
-            "scope": [
-              "entity.other.attribute-name.class.css",
-              "entity.name.type.interface",
-
-            ],
-            "settings": {
-                // "foreground": "#f99d46",
-                // "fontStyle": "normal"
-            }
-          },
-          {
-            "scope": [
-              "entity.other.attribute-name.id.css",
-              // "storage",
-            ],
-
-            "settings": {
-
-                // "foreground": "#cecece",
-                // "fontStyle": "normal"
-            }
-          },
-        ]
-    },
-    "explorer.compactFolders": false,
-    "explorer.fileNesting.enabled": true,
-    "explorer.fileNesting.expand": false,
-    "chat.editor.lineHeight": 1,
-    "workbench.list.smoothScrolling": true,
-    "editor.lineHeight": 1.5,
-    "editor.fontSize": 17,
-    "terminal.integrated.env.linux": {},
-    "console-ninja.featureSet": "Community",
-    "editor.suggest.showStatusBar": true,
-    "workbench.settings.applyToAllProfiles": [
-      "liveSassCompile.settings.compileOnWatch"
-    ],
-    "liveSassCompile.settings.showOutputWindowOn": "None",
-    "redhat.telemetry.enabled": true,
-    "editor.linkedEditing": true,
-    "editor.tabSize": 2,
-    "[scss]": {
-      "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "terminal.integrated.env.windows": {},
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "window.newWindowProfile": null,
-    "tabnine.experimentalAutoImports": true,
-    "explorer.confirmPasteNative": false,
-    "editor.minimap.enabled": false,
-    "window.zoomLevel": 1,
-
-    // "vscode_custom_css.imports": [
-    //   "file:///vscode-custom/letterpress.css"
-    // ],
-    // "vscode_custom_css.policy": true,
-    "editor.inlineSuggest.fontFamily": "Geist Mono",
-    "editor.experimentalInlineEdit.fontFamily": "GeistMono NF",
-    "editor.inlayHints.fontFamily": "Geist",
-    "editor.suggestFontSize": 17,
-    "debug.console.fontFamily": "Geist",
-    "chat.editor.fontFamily": "Geist",
-    "notebook.output.fontFamily": "Geist Mono",
-    "editor.codeLensFontFamily": "Geist",
-    "workbench.iconTheme": "a-file-icon-vscode",
-    "workbench.colorTheme": "One Dark Pro Darker",
-    "terminal.integrated.detectLocale": "on",
-    "scm.inputFontFamily": "Geist Mono",
-    "gitlens.currentLine.fontFamily": "Geist Mono",
-    "gitlens.blame.fontFamily": "Geist",
-    "notebook.lineNumbers": "on",
-    "editor.fontVariations": true,
-    "terminal.integrated.fontFamily": "GeistMono NF",
-    "[javascript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "git.openRepositoryInParentFolders": "never",
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[xslt]": {
-      "editor.semanticHighlighting.enabled": true
-    },
-    "[xml]": {
-      "editor.defaultFormatter": "redhat.vscode-xml"
-    },
-    "xsl.stylesheet": "/pc/java/xslt/template.xslt",
+        "settings": {
+          "foreground": "#cecece"
+          // "fontStyle": "normal"
+        }
+      }
+    ]
+  },
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "terminal.integrated.fontFamily": "Geist Mono",
+  "chat.editor.lineHeight": 1,
+  "workbench.list.smoothScrolling": true,
+  "editor.lineHeight": 2,
+  "editor.fontSize": 17,
+  "terminal.integrated.env.linux": {},
+  "console-ninja.featureSet": "Community",
+  "editor.suggest.showStatusBar": true,
+  "workbench.settings.applyToAllProfiles": [
+    "liveSassCompile.settings.compileOnWatch"
+  ],
+  "liveSassCompile.settings.showOutputWindowOn": "None",
+  "redhat.telemetry.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.tabSize": 2,
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.env.windows": {},
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.inlayHints.fontFamily": "Geist Mono",
+  "editor.inlineSuggest.fontFamily": "Geist Mono",
+  "debug.console.fontFamily": "Geist Mono",
+  "notebook.output.fontFamily": "Geist Mono",
+  "chat.editor.fontFamily": "Geist Mono",
+  "chat.editor.fontWeight": "Geist Mono",
+  "workbench.colorTheme": "Lunar-dark-theme",
+  "window.zoomLevel": 1
 }
