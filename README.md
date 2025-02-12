@@ -2,14 +2,15 @@
 
 ## ❔ About Me
 
- - 🚀 Software Engineer @ Finsurge Pte. Ltd. | MCA Graduate 🎓
- - 💡 Full-Stack Innovator | Building Scalable & Robust Web Apps
- - ☁️ Cloud & DevOps Enthusiast | Code. Deploy. Elevate.
- - 🖋️ Crafting Clean, Performant, and Future-Ready Software
+ - 🚀 **Software Engineer @ Finsurge Pte. Ltd.** | MCA Graduate 🎓
+ - 🕵 **Freelance Developer** | Open to Collaborations
+ - 💡 **Full-Stack Innovator** | Building Scalable & Robust Web Apps
+ - ☁️ **Cloud & DevOps Enthusiast** | Code. Deploy. Elevate.
+ - 🧶 **Crafting Clean, Performant, and Future-Ready Software**
 
 > Development is not just about writing code; it's a journey of perpetual learning and innovation, where each challenge is a stepping stone to mastery - **_Meeta Ahluwalia_**
 
-## 🧑🏻‍💻 Tech Stack
+## 💻 Tech Stack
 
 <div align="center">
 
