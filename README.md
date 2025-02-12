@@ -1,4 +1,4 @@
-# **Hi, I'm Mohan!** 👋
+# **Hey, I'm Mohan!** 👋
 
 ## ❔ About Me
 
