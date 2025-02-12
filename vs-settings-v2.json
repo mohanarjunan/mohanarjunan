@@ -24,7 +24,8 @@
   ],
   "liveSassCompile.settings.includeItems": [
     "/src/**/*.scss",
-    "/assets/**/*.scss"
+    "/assets/**/*.scss",
+    "./src/**/*.scss"
   ],
   "liveSassCompile.settings.openOutputPanel": false,
   "explorer.confirmDelete": false,
