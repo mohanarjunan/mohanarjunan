@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 @import "../utils/scss/variables";
+@import "../utils/scss/scroll-bar";
 
 *, *::after, *::before {
   font-family: $akshar;
   font-weight: normal;
+  color: $light-primary;
+  font-size: 18px;
 }
 body {
   background-color: $dark-secondary;  

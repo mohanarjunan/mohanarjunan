@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 import css from "@/utils/scss/modules/Profile.module.scss"
 
