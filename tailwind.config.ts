@@ -9,8 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        dark: "#171717",
-        light: "#ffffff"
+        primaryDark: "#121212",
+        secondaryDark: "#272727",
+        primaryLight: "#FFFFFF",
+        secondaryLight: "#F2F2F2",
+        danger: "#EE0000",
+        success: "#03C03C",
+        warning: "#FFD700"
       },
       fontFamily: {
         avenir: "avenir",
