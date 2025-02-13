@@ -1,9 +1,11 @@
+import Banner from "@/components/Banner";
+import Profile from '@/components/Profile'
+
 export default function Home() {
   return (
-    <div className="w-full h-screen flex justify-center items-center">
-      <span className="text-3xl">
-        Welcome <span className="font-avenir font-bold">Screen</span>
-      </span>
+    <div className="w-full h-screen relative">
+      <Banner />
+      <Profile />
     </div>
   );
 }
