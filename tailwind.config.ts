@@ -9,10 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryDark: "#121212",
-        secondaryDark: "#272727",
-        primaryLight: "#FFFFFF",
-        secondaryLight: "#F2F2F2",
+        darker: "#121212",
+        dark: "#272727",
+        lighter: "#FFFFFF",
+        light: "#F2F2F2",
         danger: "#EE0000",
         success: "#03C03C",
         warning: "#FFD700"

@@ -1,16 +1,13 @@
+@use "../utils/scss/scroll-bar";
+@use "../utils/scss/fonts";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import "../utils/scss/variables";
-@import "../utils/scss/scroll-bar";
 
-*, *::after, *::before {
-  font-family: $akshar;
+* {
+  @apply font-akshar;
   font-weight: normal;
-  color: $light-primary;
   font-size: 18px;
-}
-body {
-  background-color: $dark-secondary;  
 }
