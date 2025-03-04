@@ -1,0 +1,4 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50,50 Q75,10 100,50 T150,50 Q175,100 150,150 T50,150 Q25,100 50,50 Z" fill="#3498db" stroke="#2980b9" stroke-width="3" />
+  <text x="80" y="120" font-family="Arial" font-size="50" fill="white" font-weight="bold">?</text>
+</svg>

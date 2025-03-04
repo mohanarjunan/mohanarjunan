@@ -1,9 +1,13 @@
 ::-webkit-scrollbar {
-  @apply w-1;
+  @apply w-1 h-1 bg-transparent;
+}
+
+::-webkit-scrollbar-corner {
+  @apply hidden;
 }
  
 ::-webkit-scrollbar-thumb {
-  @apply bg-danger cursor-pointer;
+  @apply bg-gray-50/20 cursor-pointer;
 }
 
 ::-webkit-scrollbar-thumb:hover {

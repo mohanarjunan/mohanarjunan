@@ -1,5 +1,8 @@
 @use "../utils/scss/scroll-bar";
 @use "../utils/scss/fonts";
+@use "../utils/scss/customization";
+
+@use 'node_modules/vanilla-infinite-marquee/infinite-marquee.scss';
 
 @tailwind base;
 @tailwind components;
@@ -7,7 +10,9 @@
 
 
 * {
-  @apply font-akshar;
-  font-weight: normal;
-  font-size: 18px;
+  @apply font-akshar text-lg font-normal;
+}
+
+body {
+  @apply bg-black;
 }

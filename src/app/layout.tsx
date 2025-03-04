@@ -2,8 +2,8 @@ import React from "react"
 import "./globals.scss"
 
 export const metadata = {
-  title: 'Mohan | Profile',
-  description: 'Sign: MohanArjunan',
+  title: '  | MOHAN',
+  description: 'Sign-By: Mohan Arjunan',
 }
 
 export default function RootLayout({
