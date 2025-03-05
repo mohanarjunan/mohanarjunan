@@ -1,7 +1,0 @@
-[
-  { "name": "GitLab", "imgUrl": "/assets/img/social/gitlab.svg", "externalUrl": "#"},
-  { "name": "Twitter", "imgUrl": "/assets/img/social/x.svg", "externalUrl": "#"},
-  { "name": "Whatsapp", "imgUrl": "/assets/img/social/whatsapp.svg", "externalUrl": "#"},
-  { "name": "LinkedIn", "imgUrl": "/assets/img/social/linkedin.svg", "externalUrl": "#"},
-  { "name": "Instagram", "imgUrl": "/assets/img/social/instagram.svg", "externalUrl": "#"}
-]

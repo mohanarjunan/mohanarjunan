@@ -1,30 +1,47 @@
 {
-  "name": "mohanarjunan-portfolio",
-  "version": "v3.0",
+  "name": "portfolio",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
-    "axios": "^1.8.1",
-    "next": "15.1.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "vanilla-infinite-marquee": "^1.0.12"
+    "@react-three/drei": "^9.105.4",
+    "@react-three/fiber": "^8.16.2",
+    "@sentry/nextjs": "^7.105.0",
+    "@tabler/icons-react": "^3.1.0",
+    "@types/three": "^0.163.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.25",
+    "lucide-react": "^0.365.0",
+    "mini-svg-data-uri": "^1.4.4",
+    "next": "14.1.4",
+    "next-themes": "^0.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-lottie": "^1.2.4",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.163.0",
+    "three-globe": "^2.31.0",
+    "vercel": "^34.0.0"
   },
   "devDependencies": {
-    "@reduxjs/toolkit": "^2.5.1",
-    "@types/node": "^20.17.23",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-lottie": "^1.2.10",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
     "postcss": "^8",
-    "react-redux": "^9.2.0",
-    "redux": "^5.0.1",
-    "sass": "^1.83.4",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }
 }
