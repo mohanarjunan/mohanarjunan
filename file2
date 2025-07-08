@@ -1,0 +1,24 @@
+SELECT sp1_0.id, sp1_0.label, sp1_0.currency, sp1_0.tp, sp1_0.days, sp1_0.maturity, 
+       sp1_0.swap_pt_bid, sp1_0.swap_pt_ask, sp1_0.data_set, sp1_0.swap_pt_mid, 
+       sp1_0.date, MAX(rc1_0.curve_spread_mid) AS curve_spread_mid, 
+       MAX(rc1_0.curve_spread_bid) AS curve_spread_bid, 
+       MAX(rc1_0.curve_spread_ask) AS curve_spread_ask, 
+       MAX(rc1_0.market_quote_mid) AS market_quote_mid, 
+       MAX(rc1_0.market_quote_bid) AS market_quote_bid, 
+       MAX(rc1_0.market_quote_ask) AS market_quote_ask 
+FROM tx_md_swap_points sp1_0
+JOIN tx_md_rate_curve rc1_0 
+    ON sp1_0.currency = rc1_0.currency 
+    AND sp1_0.label = rc1_0.label 
+    AND sp1_0.tp = rc1_0.tp 
+    AND sp1_0.maturity = rc1_0.maturity_label
+WHERE lower(sp1_0.data_set) LIKE ? ESCAPE ''
+  AND lower(rc1_0.data_set) LIKE ? ESCAPE ''
+  AND lower(sp1_0.currency) LIKE ? ESCAPE ''
+  AND lower(rc1_0.currency) LIKE ? ESCAPE ''
+  AND lower(sp1_0.label) LIKE ? ESCAPE ''
+  AND lower(rc1_0.label) LIKE ? ESCAPE ''
+GROUP BY sp1_0.id, sp1_0.label, sp1_0.currency, sp1_0.tp, sp1_0.days, 
+         sp1_0.maturity, sp1_0.swap_pt_bid, sp1_0.swap_pt_ask, sp1_0.data_set, 
+         sp1_0.swap_pt_mid, sp1_0.date
+OFFSET ? ROWS FETCH FIRST ? ROWS ONLY;
