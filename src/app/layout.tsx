@@ -1,19 +1,23 @@
-import React from "react"
-import "./globals.scss"
+import type { Metadata } from "next";
+import "./globals.css";
 
-export const metadata = {
-  title: '  | MOHAN',
-  description: 'Sign-By: Mohan Arjunan',
-}
+export const metadata: Metadata = {
+  title: "Mohan Arjunan",
+  description: "Resume of Mine!",
+};
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        className={`font-sans font antialiased`}
+      >
+        {children}
+      </body>
     </html>
-  )
+  );
 }
