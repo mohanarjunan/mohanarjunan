@@ -5,3 +5,6 @@
 @import "../lib/css/fonts.css";
 @import "../lib/css/theme.css";
 
+body {
+  @apply bg-surface-100;
+}
