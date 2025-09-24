@@ -1,12 +1,15 @@
 import Banner from "@/components/Banner";
+import DownloadResume from "@/components/DownloadResume";
+import { WhatIKnow } from "@/components/WhatIKnow";
 import { WhoAmI } from "@/components/WhoAmI";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <>
+      <DownloadResume />
       <Banner />
       <WhoAmI />
+      {/* <WhatIKnow /> */}
     </>
   );
 }
