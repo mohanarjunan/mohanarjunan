@@ -11,3 +11,7 @@
 body {
   @apply bg-surface-300;
 }
+/* 
+.main-body {
+  background: fixed url(/assets/img/shape/grid.svg);
+} */

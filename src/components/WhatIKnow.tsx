@@ -10,32 +10,59 @@ export const WhatIKnow = () => {
   useEffect(() => {
     if (!containerRef.current) return;
 
-    const marquee = new InfiniteMarquee({
-      element: containerRef.current,
-      speed: 200000,
-      smoothEdges: true,
-      direction: "left",
-      spaceBetween: "30px",
-      on: {
-        beforeInit: () => {
-          console.log("Not Yet Initialized");
+    const container = containerRef.current;
+    const images = Array.from(container.querySelectorAll("img")) as HTMLImageElement[];
+
+    let marquee: InfiniteMarquee | null = null;
+    let loadedCount = 0;
+
+    const initMarquee = () => {
+      marquee = new InfiniteMarquee({
+        element: container,
+        speed: 120000, // ✅ Slow and steady for many images (~25 seconds per loop)
+        smoothEdges: true,
+        direction: "left",
+        spaceBetween: "30px",
+        on: {
+          beforeInit: () => console.log("Not Yet Initialized"),
+          afterInit: () => console.log("Initialized"),
         },
-        afterInit: () => {
-          console.log("Initialized");
-        },
-      },
+      });
+    };
+
+    const checkAndInit = () => {
+      if (loadedCount === images.length) {
+        initMarquee();
+      }
+    };
+
+    images.forEach((img) => {
+      if (img.complete) {
+        loadedCount++;
+      } else {
+        img.onload = () => {
+          loadedCount++;
+          checkAndInit();
+        };
+        img.onerror = () => {
+          loadedCount++;
+          checkAndInit();
+        };
+      }
     });
 
+    checkAndInit();
+
     return () => {
-      marquee.destroy?.();
+      marquee?.destroy?.();
     };
   }, []);
 
   return (
-    <div className="flex justify-center bg-surface-300 py-10 scroll-smooth">
+    <div className="flex justify-center bg-surface-300 py-10">
       <div
         ref={containerRef}
-        className="tools-container w-1/2 overflow-hidden"
+        className="tools-container w-2/3 overflow-hidden flex"
       >
         {techStack.map((tool: any, index: number) => (
           <div
@@ -45,7 +72,7 @@ export const WhatIKnow = () => {
             <img
               src={tool.src}
               alt={tool.name ?? ""}
-              className="w-full h-full object-contain"
+              className="w-full h-full object-contain will-change-transform backface-hidden"
             />
           </div>
         ))}

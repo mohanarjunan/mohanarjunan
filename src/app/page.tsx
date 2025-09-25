@@ -1,17 +1,23 @@
 import Banner from "@/components/Banner";
+import { Comments } from "@/components/Comments";
 import DownloadResume from "@/components/DownloadResume";
 import { Experiences } from "@/components/Experiences";
+import { Qualifications } from "@/components/Qulatifications";
 import { WhatIKnow } from "@/components/WhatIKnow";
 import { WhoAmI } from "@/components/WhoAmI";
 
 export default function Home() {
   return (
     <>
-      <DownloadResume />
-      <Banner />
-      <WhoAmI />
-      <WhatIKnow />
-      <Experiences />
+      <div className="w-full h-screen main-body">
+        <DownloadResume />
+        <Banner />
+        <WhoAmI />
+        <WhatIKnow />
+        <Experiences />
+        <Qualifications />
+        {/* <Comments /> */}
+      </div>
     </>
   );
 }
