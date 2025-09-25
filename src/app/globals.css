@@ -4,6 +4,7 @@
 
 @config "../../tailwind.config.ts";
 
+@import "../lib/css/base.css";
 @import "../lib/css/fonts.css";
 @import "../lib/css/theme.css";
 
