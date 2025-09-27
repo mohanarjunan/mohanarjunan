@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'avenir';
+  src: url("/fonts/avenir-bold.woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'avenir';
+  src: url("/fonts/avenir-regular.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'akshar';
+  src: url("/fonts/akshar.ttf");
+  font-weight: normal;
+}

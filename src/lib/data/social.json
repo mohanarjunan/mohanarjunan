@@ -1,0 +1,5 @@
+[
+  { "name": "Github", "icon": "/assets/img/social/github-1.svg", "url": "#"},
+  { "name": "LinkedIn", "icon": "/assets/img/social/linkedin.svg", "url": "#"},
+  { "name": "Instagram", "icon": "/assets/img/social/instagram.svg", "url": "#"}
+]

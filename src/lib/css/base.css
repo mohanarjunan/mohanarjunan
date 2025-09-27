@@ -1,0 +1,3 @@
+* {
+  @apply scrollbar-thin scrollbar-thumb-dark-600 scrollbar-track-transparent;
+}

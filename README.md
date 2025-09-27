@@ -8,8 +8,6 @@
  - ☁️ **Cloud & DevOps Enthusiast** | Code. Deploy. Elevate.
  - 🧶 **Crafting Clean, Performant, and Future-Ready Software**
 
-> Development is not just about writing code; it's a journey of perpetual learning and innovation, where each challenge is a stepping stone to mastery - **_Meeta Ahluwalia_**
-
 ## 💻 Tech Stack
 
 <div align="center">
@@ -80,10 +78,7 @@
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-efd81d?style=flat-square&logo=javascript&logoColor=black)![TypeScript](https://img.shields.io/badge/TypeScript-007acc?style=flat-square&logo=typescript&logoColor=white)![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)![React.js](https://img.shields.io/badge/React.js-61dafb?style=flat-square&logo=react&logoColor=black)![RadixUI](https://img.shields.io/badge/RadixUI-000000?style=flat-square&logo=radix-ui&logoColor=white)![Three.js](https://img.shields.io/badge/Three.js-grey?style=flat-square&logo=three.js&logoColor=white)![Angular](https://img.shields.io/badge/Angular-dd1b16?style=flat-square&logo=angular&logoColor=white)![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)![Nest.js](https://img.shields.io/badge/Nest.js-e0234e?style=flat-square&logo=nestjs&logoColor=white)![Fastify.js](https://img.shields.io/badge/Fastify.js-000000?style=flat-square&logo=fastify&logoColor=white)![SpringBoot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white)![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white)![Redux](https://img.shields.io/badge/Redux-764abc?style=flat-square&logo=redux&logoColor=white)![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06b6d4?style=flat-square&logo=tailwindcss&logoColor=white)![Sass](https://img.shields.io/badge/Sass-cc6699?style=flat-square&logo=sass&logoColor=white)![Linux](https://img.shields.io/badge/Linux-fcc624?style=flat-square&logo=linux&logoColor=black)![Docker](https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white)![Jenkins](https://img.shields.io/badge/Jenkins-d24939?style=flat-square&logo=jenkins&logoColor=white)![BashScript](https://img.shields.io/badge/BashScript-4EAA25?style=flat-square&logo=gnubash&logoColor=white)![Postgres](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)![MySQL](https://img.shields.io/badge/MySQL-00758f?style=flat-square&logo=mysql&logoColor=white)![MongoDB](https://img.shields.io/badge/MongoDB-47a248?style=flat-square&logo=mongodb&logoColor=white)![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=flat-square&logo=firebase&logoColor=black)![Supabase](https://img.shields.io/badge/Supabase-009639?style=flat-square&logo=supabase&logoColor=white)![Git](https://img.shields.io/badge/Git-f05032?style=flat-square&logo=git&logoColor=white)![AndroidStudio](https://img.shields.io/badge/AndroidStudio-009639?style=flat-square&logo=androidstudio&logoColor=white)![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)![Redis](https://img.shields.io/badge/Redis-df2328?style=flat-square&logo=redis&logoColor=white)![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)![Netlify](https://img.shields.io/badge/Netlify-00c7b7?style=flat-square&logo=netlify&logoColor=white)![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 
-</div>
-
-
-<div align="center">
+  <div align="center">
 
 ## 🌍 Connect with Me  
 

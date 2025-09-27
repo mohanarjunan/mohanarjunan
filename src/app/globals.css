@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@import '../../node_modules/vanilla-infinite-marquee/infinite-marquee.css';
+
+@config "../../tailwind.config.ts";
+
+@import "../lib/css/base.css";
+@import "../lib/css/fonts.css";
+@import "../lib/css/theme.css";
+
+body {
+  @apply bg-surface-300;
+}
+/* 
+.main-body {
+  background: fixed url(/assets/img/shape/grid.svg);
+} */
