@@ -1,7 +1,7 @@
 "use client";
-import React, { useRef, useEffect } from "react";
-import workExperience from '../lib/data/work-experiences.json'
-import { Clock, Link } from "lucide-react";
+import React, { useRef, useEffect, useState } from "react";
+import workExperiences from '../lib/data/work-experiences.json'
+import { Axe, Clock, Link } from "lucide-react";
 
 export const Experiences = () => {
 
@@ -19,7 +19,7 @@ export const Experiences = () => {
         <div className="absolute left-1/2 top-0 h-full w-[2px] bg-dark-300 transform -translate-x-1/2" />
 
         {/* Map */}
-        {workExperience.map((work: any, index: number) => (
+        {workExperiences.map((work: any, index: number) => (
 
           // Each Element
           <div key={index} className={`w-full flex gap-20 ${index % 2 == 0 ? "" : "flex-row-reverse"} px-8 relative`}>

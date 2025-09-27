@@ -11,9 +11,7 @@ export const WhatIKnow = () => {
     if (!containerRef.current) return;
 
     const container = containerRef.current;
-    const images = Array.from(container.querySelectorAll("img")) as HTMLImageElement[];
-
-    let marquee: InfiniteMarquee | null = null;
+    let marquee: any | null = null;
     let loadedCount = 0;
 
     const initMarquee = () => {
@@ -30,28 +28,7 @@ export const WhatIKnow = () => {
       });
     };
 
-    const checkAndInit = () => {
-      if (loadedCount === images.length) {
-        initMarquee();
-      }
-    };
-
-    images.forEach((img) => {
-      if (img.complete) {
-        loadedCount++;
-      } else {
-        img.onload = () => {
-          loadedCount++;
-          checkAndInit();
-        };
-        img.onerror = () => {
-          loadedCount++;
-          checkAndInit();
-        };
-      }
-    });
-
-    checkAndInit();
+    initMarquee();
 
     return () => {
       marquee?.destroy?.();

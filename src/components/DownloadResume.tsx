@@ -4,7 +4,7 @@ import React from 'react'
 const DownloadResume = () => {
   return (
     <a 
-      href='/vercel.svg'
+      href='/assets/pdf/Resume_Mohan.pdf'
       download={true}
       className="z-9999 group fixed right-10 top-10 text-dark-700 flex items-center justify-center hover:gap-2 cursor-pointer bg-dark-100 shadow-md rounded-full px-3 py-2 overflow-hidden">
       <DownloadCloud size={25} />

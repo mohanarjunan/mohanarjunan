@@ -1,0 +1,23 @@
+[
+  {
+    "author": "Ganesh",
+    "role": "Associate DevOps Lead",
+    "at": "Finsurge Pvt. Ltd.",
+    "relation": "Colleague",
+    "comment": "You've significantly improved our CI/CD pipelines, resolving issues efficiently and collaborating effectively with the team. Keep enhancing automation, monitoring, and cost optimization practices to further strengthen our DevOps processes and overall deployment reliability."
+  },
+  {
+    "author": "Dharshini",
+    "role": "Senior Software Developer",
+    "at": "Finsurge Pvt. Ltd.",
+    "relation": "Colleague",
+    "comment": "You've delivered Spring Boot backend features consistently and on time, demonstrating strong coding skills and understanding of business requirements. Keep collaborating with the team and refining APIs for scalability and maintainability."
+  },
+  {
+    "author": "Siddharth",
+    "role": "IT Admin",
+    "at": "HCL Pvt. Ltd.",
+    "relation": "Friend",
+    "comment": "You're doing an incredible job as a full-stack developer, handling both frontend and backend effortlessly. It's inspiring to see how dynamically you're growing, constantly learning new technologies and improving your skills with every project."
+  }
+]

@@ -1,9 +1,12 @@
 "use client";
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import educationalCredentials from '../lib/data/educational-credentials.json'
+import workExperiences from '../lib/data/work-experiences.json'
 import { Clock, Link, LocateIcon, LocationEditIcon, MapIcon } from "lucide-react";
 
 export const Qualifications = () => {
+
+  const [odd, setOdd] = useState<number>(workExperiences.length % 2 == 0 ? 0 : 1)
 
   return (
     <div className="bg-surface-200 h-fit pb-20 flex flex-col items-center justify-center">
@@ -22,7 +25,7 @@ export const Qualifications = () => {
         {educationalCredentials.map((education: any, index: number) => (
 
           // Each Element
-          <div key={index} className={`w-full flex gap-20 ${index % 2 == 0 ? "" : "flex-row-reverse"} px-8 relative`}>
+          <div key={index} className={`w-full flex gap-20 ${index % 2 == odd ? "" : "flex-row-reverse"} px-8 relative`}>
 
             {/* Dot */}
             <div className={`absolute w-5 h-5 overflow-hidden bg-surface-200 rounded-full top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2 p-1.5`}>
@@ -31,7 +34,7 @@ export const Qualifications = () => {
 
             {/* Description Block */}
             <div className={`relative w-1/2 flex flex-col  gap-2 p-5 bg-surface-300 text-white rounded-lg cursor-pointer transition-all duration-300 border-4 group border-transparent hover:border-dark-500 `} >
-              <div className={`absolute w-5 h-5 overflow-hidden bg-surface-300 top-1/2 transform -translate-y-1/2 border-4 border-transparent z-0 group-hover:border-dark-500 group-hover:bg-brand-100 rotate-45 ${index % 2 == 0 ? "-right-3" : "-left-3"} ${index == 0 ? "p-1" : "p-1.5 "}`}>
+              <div className={`absolute w-5 h-5 overflow-hidden bg-surface-300 top-1/2 transform -translate-y-1/2 border-4 border-transparent z-0 group-hover:border-dark-500 group-hover:bg-brand-100 rotate-45 ${index % 2 == odd ? "-right-3" : "-left-3"} ${index == odd ? "p-1" : "p-1.5 "}`}>
               </div>
               <div className="text-dark-200 font-bold font-avenir text-lg">
                 {education.institudeName}
@@ -46,7 +49,7 @@ export const Qualifications = () => {
             </div>
 
             {/* Company Block */}
-            <div className={`relative w-1/2 flex flex-col justify-center ${index % 2 == 0 ? "items-start -ps-10" : "items-end"} gap-0.5`} >
+            <div className={`relative w-1/2 flex flex-col justify-center ${index % 2 == odd ? "items-start -ps-10" : "items-end"} gap-0.5`} >
               <div className="text-xl font-black font-avenir text-dark-100">
                 {education.education}
               </div>
