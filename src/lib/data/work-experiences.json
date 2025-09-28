@@ -3,96 +3,215 @@
     "companyName": "FinSurge Pvt. Ltd.",
     "url": "https://www.finsurge.ai",
     "designation": "Associate Software Developer (Back-end)",
-    "category": ["Full-Time Employee"],
+    "category": [
+      "Full-Time Employee"
+    ],
     "from": "Nov. 2024",
     "to": "Present",
     "description": "Working as an Associate Software Developer at FinSurge Pvt. Ltd., contributing to TreSureX - a SkinLayer solution for the Murex engine, enhancing and integrating backend services powered by Spring Boot.",
     "toolsName": "Spring Boot (Microservices), Redis, Kafka, Apache Camel (MxOpenConnect), PostgreSQL",
-    "toolsIcon": [
-      "/assets/img/tools/spring-boot.svg",
-      "/assets/img/tools/redis.svg",
-      "/assets/img/tools/apace.svg",
-      "/assets/img/tools/postgresql.svg"
+    "tools": [
+      {
+        "icon": "/assets/img/tools/spring-boot.svg",
+        "bg": "bg-dark-600"
+      },
+      {
+        "icon": "/assets/img/tools/redis.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/apace.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/postgresql.svg",
+        "bg": "bg-dark-100"
+      }
     ]
   },
-   {
+  {
     "companyName": "FinSurge Pvt. Ltd.",
     "url": "https://www.finsurge.ai",
     "designation": "DevOps Engineer",
-    "category": ["Intern", "Full-Time Employee"],
+    "category": [
+      "Intern",
+      "Full-Time Employee"
+    ],
     "from": "Dec. 2023",
     "to": "Nov. 2024",
     "description": "At FinSurge, I managed cloud infrastructure and automation, deploying solutions on Azure Cloud and setting up CI/CD pipelines with Jenkins and GitHub Workflows. Implemented Nextcloud for local cloud storage, and handled network management, including NAT policies and DHCP assignments.",
     "toolsName": "Putty, Bash, Jenkins, Docker, PassBolt, Azure, Nginx, Apache ",
-    "toolsIcon": [
-      "/assets/img/tools/bash.svg",
-      "/assets/img/tools/jenkins.svg",
-      "/assets/img/tools/docker.svg",
-      "/assets/img/tools/passbolt.svg",
-      "/assets/img/tools/azure.svg",
-      "/assets/img/tools/nginx.svg",
-      "/assets/img/tools/apace.svg",
-      "/assets/img/tools/gitlab.svg",
-      "/assets/img/tools/kubernets.svg",
-      "/assets/img/tools/linux.svg",
-      "/assets/img/tools/red-hat.svg",
-      "/assets/img/tools/palo-alto-networks.svg",
-      "/assets/img/tools/oracle-1.svg"
+    "tools": [
+      {
+        "icon": "/assets/img/tools/bash.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/jenkins.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/docker.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/passbolt.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/azure.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/nginx.svg",
+        "bg": "bg-dark-600"
+      },
+      {
+        "icon": "/assets/img/tools/apace.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/gitlab.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/kubernets.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/linux.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/red-hat.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/palo-alto-networks.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/oracle-1.svg",
+        "bg": "bg-dark-100"
+      }
     ]
   },
   {
     "companyName": "BaboolSoft Pvt. Ltd.",
     "url": "https://www.baboolsoft.com/",
     "designation": "Full Stack Developer",
-    "category": ["Intern"],
+    "category": [
+      "Intern"
+    ],
     "from": "May. 2023",
     "to": "Jun. 2023",
     "description": "Completed an internship at Baboolsoft as a Full-Stack Web Developer, working on comprehensive web projects using modern frameworks and tools such as Next.js, React.js, Angular, Express.js, and MongoDB. Gained hands-on experience in both frontend and backend development, building scalable and interactive applications.",
     "toolsName": "React.Js, Next.Js, Express.Js, MongoDb, Node.Js, Angular",
-    "toolsIcon": [
-      "/assets/img/tools/react.svg",
-      "/assets/img/tools/nextjs.svg",
-      "/assets/img/tools/expressjs.svg",
-      "/assets/img/tools/mongodb.svg",
-      "/assets/img/tools/nodejs.svg",
-      "/assets/img/tools/angular-svgrepo-com.svg"
+    "tools": [
+      {
+        "icon": "/assets/img/tools/react.svg",
+        "bg": "bg-dark-600"
+      },
+      {
+        "icon": "/assets/img/tools/nextjs.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/expressjs-1.svg",
+        "bg": "bg-dark-600"
+      },
+      {
+        "icon": "/assets/img/tools/mongodb.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/nodejs.svg",
+        "bg": "bg-dark-600"
+      },
+      {
+        "icon": "/assets/img/tools/angular-svgrepo-com.svg",
+        "bg": "bg-dark-100"
+      }
     ]
   },
   {
     "companyName": "MacVel Software Solutions",
     "url": "https://macvelsoftware.com",
     "designation": "Full Stack Developer",
-    "category": ["Part-Time Employee"],
+    "category": [
+      "Part-Time Employee"
+    ],
     "from": "May. 2022",
     "to": "Oct. 2022",
     "description": "Worked as a Full-Stack Web Developer at Macvel Software Solutions, contributing to real-time projects with a strong focus on scalable and high-performance applications. Gained hands-on experience in both frontend and backend development also delivering end-to-end solutions across the full development lifecycle.",
     "toolsName": "React.Js, Next.Js, Express.Js, MongoDb, Node.Js, Angular, PostgreSql, Wix",
-    "toolsIcon": [
-      "/assets/img/tools/react.svg",
-      "/assets/img/tools/nextjs.svg",
-      "/assets/img/tools/expressjs.svg",
-      "/assets/img/tools/mongodb.svg",
-      "/assets/img/tools/nodejs.svg",
-      "/assets/img/tools/angular-svgrepo-com.svg",
-      "/assets/img/tools/postgresql.svg",
-      "/assets/img/tools/wix.svg"
+    "tools": [
+      {
+        "icon": "/assets/img/tools/react.svg",
+        "bg": "bg-dark-600"
+      },
+      {
+        "icon": "/assets/img/tools/nextjs.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/expressjs-1.svg",
+        "bg": "bg-dark-600"
+      },
+      {
+        "icon": "/assets/img/tools/mongodb.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/nodejs.svg",
+        "bg": "bg-dark-600"
+      },
+      {
+        "icon": "/assets/img/tools/angular-svgrepo-com.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/postgresql.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/wix-1.svg",
+        "bg": "bg-dark-600"
+      }
     ]
   },
   {
     "companyName": "Golden Lotus Media Solutions",
     "url": "#",
     "designation": "Graphic Designer / UI / UX",
-    "category": ["Intern"],
+    "category": [
+      "Intern"
+    ],
     "from": "Jun. 2021",
     "to": "Jul. 2021",
     "description": "Completed an internship focusing on UI/UX design and graphic design, where I contributed to creating user-friendly interfaces, enhancing digital branding materials, and designing engaging visual assets. Gained hands-on experience in wireframing, prototyping, and creative design workflows.",
     "toolsName": "Adobe Photoshop, Adobe Illustrator, Figma, Adobe XD, Framer",
-    "toolsIcon": [
-      "/assets/img/tools/photoshop.svg",
-      "/assets/img/tools/illustrator.svg",
-      "/assets/img/tools/figma.svg",
-      "/assets/img/tools/xd.svg",
-      "/assets/img/tools/framer.svg"
+    "tools": [
+      {
+        "icon": "/assets/img/tools/photoshop.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/illustrator.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/figma.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/xd.svg",
+        "bg": "bg-dark-100"
+      },
+      {
+        "icon": "/assets/img/tools/framer.svg",
+        "bg": "bg-dark-100"
+      }
     ]
   }
 ]

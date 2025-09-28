@@ -31,11 +31,16 @@ export const Experiences = () => {
 
             {/* Description Block */}
             <div className={`relative w-1/2 flex flex-col  gap-2 p-5 bg-surface-300 text-white rounded-lg cursor-pointer transition-all duration-300 border-4 group border-transparent hover:border-dark-500 `} >
-              <div className={`absolute w-5 h-5 overflow-hidden bg-surface-300 top-1/2 transform -translate-y-1/2 border-4 border-transparent z-0 group-hover:border-dark-500 group-hover:bg-brand-100 rotate-45 ${index % 2 == 0 ? "-right-3" : "-left-3"} ${index == 0 ? "p-1" : "p-1.5 "}`}>
-              </div>
+              
+              {/* Currenct Hover Dot */}
+              <div className={`absolute w-5 h-5 overflow-hidden bg-surface-300 top-1/2 transform -translate-y-1/2 border-4 border-transparent z-0 group-hover:border-dark-500 group-hover:bg-brand-100 rotate-45 ${index % 2 == 0 ? "-right-3" : "-left-3"} ${index == 0 ? "p-1" : "p-1.5 "}`} />
+              
+              {/* Designation */}
               <div className="font-avenir text-lg font-bold text-dark-100">
                 {work.designation}
               </div>
+              
+              {/* Categories */}
               <div className="flex gap-1 text-dark-100/80">
                 {work.category.map((cat: string, catIndex: number) => (
                   <span key={catIndex} className="px-3 py-1 bg-dark-600 rounded-full font-akshar font-bold">
@@ -43,18 +48,21 @@ export const Experiences = () => {
                   </span>
                 ))}
               </div>
+
+              {/* Description */}
               <div className="text-dark-200 italic">
                 {work.description}
               </div>
+
+              {/* Tools */}
               <div className="flex justify-end cursor-pointer mt-3" title={work.toolsName}>
-                {work.toolsIcon.map((tool: string, toolIndex: number) => (
+                {work.tools.map((tool: any, toolIndex: number) => (
                   <div
                     key={toolIndex}
-                    className="w-8 h-8 flex items-center justify-center bg-slate-100 rounded-full p-1 border-2 border-dark-200 shadow-md -mr-2 last:mr-0"
+                    className={`w-8 h-8 flex items-center justify-center rounded-full p-1.5 shadow-md -mr-2 last:mr-0 ${tool?.bg}`}
                   >
                     <img
-                      src={tool}
-                      alt={tool ?? ""}
+                      src={tool.icon}
                       className="w-full h-full object-contain"
                     />
                   </div>
