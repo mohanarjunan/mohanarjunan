@@ -17,7 +17,7 @@ export const WhatIKnow = () => {
     const initMarquee = () => {
       marquee = new InfiniteMarquee({
         element: container,
-        speed: 120000, // ✅ Slow and steady for many images (~25 seconds per loop)
+        speed: 150000,
         smoothEdges: true,
         direction: "left",
         spaceBetween: "30px",
