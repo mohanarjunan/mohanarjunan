@@ -35,7 +35,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='w-5/12 flex flex-col gap-1.5 hidden md:block'>
+        <div className='w-5/12 md:flex flex-col gap-1.5 hidden'>
           <div className='text-2xl font-black font-avenir'>Contact Form</div>
           <form className='flex flex-col gap-2.5 items-center'>
             <input type="text" className='border-1 w-full focus:outline-dark-300 outline-1 outline-transparent border-dark-300 py-2 px-3' placeholder='From *' />

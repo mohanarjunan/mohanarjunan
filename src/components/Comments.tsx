@@ -81,7 +81,7 @@ export const Comments = () => {
               <GitBranch size={15} />
               {comment.relation}
             </div>
-            <div className="text-dark-100 italic text-base leading-relaxed break-words whitespace-pre-line max-w-full">
+            <div className="text-dark-100 italic md:text-base text-sm leading-relaxed break-words whitespace-pre-line max-w-full">
               {comment.comment}
             </div>
             <div className='flex flex-col self-end mt-3'>
