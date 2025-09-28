@@ -6,36 +6,46 @@ import { Axe, Clock, Link } from "lucide-react";
 export const Experiences = () => {
 
   return (
-    <div className="bg-surface-200 h-fit pb-5 flex flex-col items-center justify-center">
+    <div className="bg-surface-200 p-5 flex flex-col items-center justify-center">
       {/* Title */}
       <div className="font-bold text-3xl text-dark-100 p-8">
         Work Experience's
       </div>
 
       {/* Container */}
-      <div className="w-3/5 flex flex-col space-y-5 py-10 text-sm relative">
+      <div className="md:w-3/5 w-full flex flex-col md:space-y-5 space-y-10 py-10 text-sm relative">
 
         {/* Tree Line */}
-        <div className="absolute left-1/2 top-0 h-full w-[2px] bg-dark-300 transform -translate-x-1/2" />
+        <div className="absolute md:left-1/2 left-0 top-0 h-full w-[2px] bg-dark-300 transform md:-translate-x-1/2" />
 
         {/* Map */}
         {workExperiences.map((work: any, index: number) => (
 
           // Each Element
-          <div key={index} className={`w-full flex gap-20 ${index % 2 == 0 ? "" : "flex-row-reverse"} px-8 relative`}>
+          <div key={index} className={`w-full flex md:flex-row md:gap-20 gap-4 flex-col-reverse ${index % 2 == 0 ? "" : "md:flex-row-reverse"} md:px-8 ps-8 relative`}>
 
             {/* Dot */}
-            <div className={`absolute w-5 h-5 overflow-hidden bg-surface-200 rounded-full top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2 ${index == 0 ? "p-1" : "p-1.5 "}`}>
+            <div className={`hidden md:block absolute w-5 h-5 overflow-hidden bg-surface-200 rounded-full top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2 ${index == 0 ? "p-1" : "p-1.5 "}`}>
               <div className={`w-full h-full bg-brand-100 rounded-full ${index == 0 ? "animate-ping duration-700 transition-all border-2 border-white" : ""}`}></div>
             </div>
 
-            {/* Description Block */}
-            <div className={`relative w-1/2 flex flex-col  gap-2 p-5 bg-surface-300 text-white rounded-lg cursor-pointer transition-all duration-300 border-4 group border-transparent hover:border-dark-500 `} >
-              <div className={`absolute w-5 h-5 overflow-hidden bg-surface-300 top-1/2 transform -translate-y-1/2 border-4 border-transparent z-0 group-hover:border-dark-500 group-hover:bg-brand-100 rotate-45 ${index % 2 == 0 ? "-right-3" : "-left-3"} ${index == 0 ? "p-1" : "p-1.5 "}`}>
-              </div>
+            {/* Details Block */}
+            <div className={`relative md:w-1/2 flex flex-col gap-2 p-5 bg-surface-300 text-white rounded-lg cursor-pointer transition-all duration-300 border-4 group border-transparent hover:border-dark-500 `} >
+              
+            {/* Dot */}
+            <div className={`md:hidden absolute w-5 h-5 overflow-hidden bg-surface-200 rounded-full top-1/2 transform -translate-y-1/2 -left-11.5 ${index == 0 ? "p-1" : "p-1.5 "}`}>
+              <div className={`w-full h-full bg-brand-100 rounded-full ${index == 0 ? "animate-ping duration-700 transition-all border-2 border-white" : ""}`}></div>
+            </div>
+
+              {/* Currenct Hover Dot */}
+              <div className={`absolute w-5 h-5 overflow-hidden bg-surface-300 top-1/2 transform -translate-y-1/2 border-4 border-transparent z-0 group-hover:border-dark-500 group-hover:bg-brand-100 rotate-45 -left-3 ${index % 2 == 0 ? "md:-right-3" : "md:-left-3"} ${index == 0 ? "p-1" : "p-1.5 "}`} />
+              
+              {/* Designation */}
               <div className="font-avenir text-lg font-bold text-dark-100">
                 {work.designation}
               </div>
+              
+              {/* Categories */}
               <div className="flex gap-1 text-dark-100/80">
                 {work.category.map((cat: string, catIndex: number) => (
                   <span key={catIndex} className="px-3 py-1 bg-dark-600 rounded-full font-akshar font-bold">
@@ -43,18 +53,21 @@ export const Experiences = () => {
                   </span>
                 ))}
               </div>
+
+              {/* Description */}
               <div className="text-dark-200 italic">
                 {work.description}
               </div>
+
+              {/* Tools */}
               <div className="flex justify-end cursor-pointer mt-3" title={work.toolsName}>
-                {work.toolsIcon.map((tool: string, toolIndex: number) => (
+                {work.tools.map((tool: any, toolIndex: number) => (
                   <div
                     key={toolIndex}
-                    className="w-8 h-8 flex items-center justify-center bg-slate-100 rounded-full p-1 border-2 border-dark-200 shadow-md -mr-2 last:mr-0"
+                    className={`w-8 h-8 flex items-center justify-center rounded-full p-1.5 shadow-md -mr-2 last:mr-0 ${tool?.bg}`}
                   >
                     <img
-                      src={tool}
-                      alt={tool ?? ""}
+                      src={tool.icon}
                       className="w-full h-full object-contain"
                     />
                   </div>
@@ -63,7 +76,7 @@ export const Experiences = () => {
             </div>
 
             {/* Company Block */}
-            <div className={`relative w-1/2 flex flex-col justify-center ${index % 2 == 0 ? "items-start -ps-10" : "items-end"} gap-0.5`} >
+            <div className={`relative md:w-1/2 flex flex-col justify-center items-start ps-1 md:ps-0 md:${index % 2 == 0 ? "items-start -ps-10" : "items-end"} gap-0.5`} >
               <div className="text-xl font-black font-avenir text-dark-100">
                 {work.companyName}
               </div>

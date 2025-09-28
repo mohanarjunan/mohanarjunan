@@ -5,8 +5,8 @@ import { Mail, MailCheck, Phone } from 'lucide-react'
 export const Footer = () => {
   return (
     <div className='text-dark-100 flex flex-col justify-center items-center'>
-      <div className="w-8/12 my-10 flex justify-center space-x-30">
-        <div className='w-3/12 flex flex-col gap-0.5'>
+      <div className="md:w-8/12 w-10/12 md:my-10 mt-11 flex md:flex-row flex-col justify-center space-y-10 md:space-x-30">
+        <div className='md:w-3/12 flex flex-col gap-0.5'>
           <div className='text-2xl font-black font-avenir'>Quick Connect</div>
           <div className='flex gap-3 items-center'>
             <div className='h-1 w-5 bg-surface-100'></div>
@@ -15,7 +15,7 @@ export const Footer = () => {
             ))}
           </div>
         </div>
-        <div className='w-4/12 flex flex-col gap-3'>
+        <div className='md:w-4/12 flex flex-col gap-3'>
           <div className='flex flex-col'>
             <span className="text-2xl font-black font-avenir">Mohan Arjunan</span>
             <span className='text-dark-200'>@mohanarjunan</span>
@@ -35,7 +35,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='w-5/12 flex flex-col gap-1.5'>
+        <div className='w-5/12 flex flex-col gap-1.5 hidden md:block'>
           <div className='text-2xl font-black font-avenir'>Contact Form</div>
           <form className='flex flex-col gap-2.5 items-center'>
             <input type="text" className='border-1 w-full focus:outline-dark-300 outline-1 outline-transparent border-dark-300 py-2 px-3' placeholder='From *' />
