@@ -8,10 +8,6 @@
 @import "../lib/css/fonts.css";
 @import "../lib/css/theme.css";
 
-body {
-  @apply bg-surface-300;
+* {
+  @apply scroll-smooth;
 }
-/* 
-.main-body {
-  background: fixed url(/assets/img/shape/grid.svg);
-} */

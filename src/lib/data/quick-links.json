@@ -1,0 +1,9 @@
+[
+  { "id": "banner", "name": "Banner", "url": "#banner" },
+  { "id": "who-am-i", "name": "Who Am I", "url": "#who-am-i" },
+  { "id": "what-i-know", "name": "What I Know", "url": "#what-i-know" },
+  { "id": "work-experiences", "name": "Work Experiences", "url": "#work-experiences" },
+  { "id": "educational-credentials", "name": "Educational Credentials", "url": "#educational-credentials" },
+  { "id": "comments", "name": "Comments", "url": "#comments" },
+  { "id": "contact", "name": "Contact", "url": "#contact" }
+]
