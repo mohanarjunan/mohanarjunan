@@ -17,7 +17,7 @@ export const ContactForm = () => {
   });
 
   const [statusMsg, setStatusMsg] = useState<string>("");
-  const [statusCode, setStatusCode] = useState<number>(0);
+  const [statusColor, setStatusColor] = useState<string>("text-dark-300");
 
   const handleChange = (e: ChangeEvent<any>) => {
     setData({ ...data, [e.target.name]: e.target.value });
@@ -30,16 +30,16 @@ export const ContactForm = () => {
       .post("/api/contact", data)
       .then((res) => {
         console.log("res", res);
-        setStatusCode(res.status);
+        setStatusColor("text-green-500");
         setStatusMsg(res.data.message);
         setData({ name: "", email: "", message: "" });
       })
       .catch((rej) => {
         console.log("rej", rej);
-        setStatusCode(rej.status);
+        setStatusColor("text-red-500");
         setStatusMsg(rej.data.message);
       });
-    console.log("data", data);
+    // console.log("data", data);
   };
 
   return (
@@ -83,7 +83,7 @@ export const ContactForm = () => {
       <span
         className={`self-end ${
           statusMsg == "Sending..." ? "animate-pulse" : ""
-        } ${statusCode == 200 ? "text-green-500" : "text-red-500"}`}
+        } ${statusColor}`}
       >
         {statusMsg}
       </span>
