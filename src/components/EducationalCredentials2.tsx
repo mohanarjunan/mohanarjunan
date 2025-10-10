@@ -20,7 +20,7 @@ export const EducationalCredentials2 = () => {
 
   return (
     <>
-      <div className="bg-surface-300 flex flex-col gap-2 md:gap-4 justify-center items-center py-8 px-2">
+      <div id="educational-credentials" className="bg-surface-300 flex flex-col gap-2 md:gap-4 justify-center items-center py-8 px-2">
         <div className="text-dark-100 text-3xl font-bold">Educational Credentials</div>
         <div className="w-full md:w-3/4 text-dark-100 flex flex-col md:flex-row gap-2 md:gap-4">
           {educationalCredentials.map((edu: any, index: number) => (

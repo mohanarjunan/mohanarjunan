@@ -13,7 +13,6 @@ export const QuickLinks = () => {
             <Link
               key={index}
               href={quick.url}
-              target="_blank"
               className="flex items-center gap-1 transition-all duration-300 hover:ps-2 hover:font-bold text-dark-200 hover:text-dark-100"
             >
               <span>

@@ -39,7 +39,7 @@ export const Comments = () => {
   return (
     <>
       {/* Lg */}
-      <div className="hidden md:flex flex-col items-center gap-5 justify-center bg-surface-200 py-10 text-light-200">
+      <div id="comments" className="hidden md:flex flex-col items-center gap-5 justify-center bg-surface-200 py-10 text-light-200">
         <div className="text-dark-100 text-3xl font-bold">Comments'</div>
         <div ref={containerRef} className="flex gap-3 w-2/3">
           {comments.map((comment: any, index: number) => (

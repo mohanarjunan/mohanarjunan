@@ -5,7 +5,7 @@ import { Axe, Clock, Link } from "lucide-react";
 
 export const Experiences = () => {
   return (
-    <div className="bg-surface-200 p-5 flex flex-col items-center justify-center">
+    <div id="work-experiences" className="bg-surface-200 p-5 flex flex-col items-center justify-center">
       {/* Title */}
       <div className="font-bold text-3xl text-dark-100 p-8">
         Work Experience's

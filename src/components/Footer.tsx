@@ -11,7 +11,7 @@ export const Footer = () => {
   return (
     <>
       {/* Footer */}
-      <div className="text-dark-100 bg-surface-300 flex flex-col justify-center items-center">
+      <div id="contact" className="text-dark-100 bg-surface-300 flex flex-col justify-center items-center">
         
         {/* Footer Top */}
         <div className="md:w-8/12 w-10/12 md:my-10 mt-11 flex md:flex-row flex-col justify-center space-y-10 md:space-x-30">

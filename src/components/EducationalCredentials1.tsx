@@ -17,7 +17,7 @@ export const EducationalCredentials1 = () => {
 
   return (
     <>
-      <div className="bg-surface-200 p-5 h-fit pb-20 flex flex-col items-center justify-center">
+      <div id="educational-credentials" className="bg-surface-200 p-5 h-fit pb-20 flex flex-col items-center justify-center">
         {/* Title */}
         <div className="font-bold text-3xl text-dark-100 pb-8">
           Educational Credentials

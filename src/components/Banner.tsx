@@ -4,7 +4,7 @@ import { GridBackDrop } from "./banner/GridBackDrop";
 export const Banner = () => {
   return (
     <>
-      <div className="w-full h-screen dark:bg-surface-200 border-b-[1.9px] border-b-dark-400/30 bg-surface-100 flex flex-col gap-3 justify-center items-center">
+      <div id="banner" className="w-full h-screen dark:bg-surface-200 border-b-[1.9px] border-b-dark-400/30 bg-surface-100 flex flex-col gap-3 justify-center items-center">
         <GridBackDrop />
         <div className="relative w-48 h-48 rounded-full dark:border-5 dark:border-dark-100 shadow">
           <img
