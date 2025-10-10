@@ -37,3 +37,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ message: "Failed to send message" }, { status: 500 });
   }
 }
+
+// export async function GET(req: Request) {
+//   return NextResponse.json({ message: "API Works Fine!" })
+// }

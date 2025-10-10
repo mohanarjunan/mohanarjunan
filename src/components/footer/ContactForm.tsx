@@ -37,7 +37,7 @@ export const ContactForm = () => {
       .catch((rej) => {
         console.log("rej", rej);
         setStatusColor("text-red-500");
-        setStatusMsg(rej.data.message);
+        setStatusMsg("Failed to send message!");
       });
     // console.log("data", data);
   };
