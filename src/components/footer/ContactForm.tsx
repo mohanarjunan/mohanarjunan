@@ -39,7 +39,7 @@ export const ContactForm = () => {
         setStatusColor("text-red-500");
         setStatusMsg(rej.data.message);
       });
-    console.log("data", data);
+    // console.log("data", data);
   };
 
   return (
