@@ -1,5 +1,4 @@
 [
-  { "name": "Github", "icon": "/assets/img/social/github-1.svg", "url": "#"},
-  { "name": "LinkedIn", "icon": "/assets/img/social/linkedin.svg", "url": "#"},
-  { "name": "Instagram", "icon": "/assets/img/social/instagram.svg", "url": "#"}
+  { "name": "Github", "icon": "/assets/img/social/github-1.svg", "url": "https://github.com/mohanarjunan"},
+  { "name": "LinkedIn", "icon": "/assets/img/social/linkedin.svg", "url": "https://www.linkedin.com/in/mohanarjunan/"}
 ]

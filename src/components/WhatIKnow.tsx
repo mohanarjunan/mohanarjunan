@@ -36,7 +36,7 @@ export const WhatIKnow = () => {
   }, []);
 
   return (
-    <div className="flex justify-center bg-surface-300 py-10">
+    <div className="flex justify-center bg-surface-100 dark:bg-surface-300 py-10">
       <div
         ref={containerRef}
         className="tools-container w-2/3 overflow-hidden flex"
