@@ -1,42 +1,26 @@
-// app/api/contact/route.ts
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(req: Request) {
+  const { name, email, message } = await req.json();
+
+  if (!name || !email || !message)
+    return NextResponse.json({ message: "Missing fields" }, { status: 400 });
+
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      user: process.env.MAIL_USER,
+      pass: process.env.MAIL_PASS,
+    },
+  });
+
   try {
-    const { name, email, message } = await req.json();
-
-    if (!name || !email || !message) {
-      return NextResponse.json(
-        { message: "Missing required fields: name, email, or message" },
-        { status: 400 }
-      );
-    }
-
-    if (
-      !process.env.MAIL_USER ||
-      !process.env.MAIL_PASS ||
-      !process.env.MAIL_TO
-    ) {
-      return NextResponse.json(
-        { message: "Email configuration is missing on server" },
-        { status: 500 }
-      );
-    }
-
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.MAIL_USER,
-        pass: process.env.MAIL_PASS,
-      },
-    });
-
     await transporter.sendMail({
       from: `"${name}" <${email}>`,
       to: process.env.MAIL_TO,
-      cc: process.env.MAIL_CC || undefined,
-      subject: `New message from ${name} | Website`,
+      cc: process.env.MAIL_CC,
+      subject: `New message from ${name} | Through Website`,
       text: message,
       html: `
         <div style="font-family: sans-serif;">
@@ -47,17 +31,13 @@ export async function POST(req: Request) {
       `,
     });
 
-    return NextResponse.json({ message: "Message sent successfully!" });
+    return NextResponse.json({ message: "Message send successfully!" });
   } catch (error) {
     console.error("Email send error:", error);
-    return NextResponse.json(
-      { message: "Failed to send message. Try again later." },
-      { status: 500 }
-    );
+    return NextResponse.json({ message: "Failed to send message" }, { status: 500 });
   }
 }
 
-// Optional: Add GET to test in browser
-export async function GET() {
-  return NextResponse.json({ message: "API is working!" });
-}
+// export async function GET(req: Request) {
+//   return NextResponse.json({ message: "API Works Fine!" })
+// }
