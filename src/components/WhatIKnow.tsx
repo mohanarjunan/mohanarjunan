@@ -17,7 +17,7 @@ export const WhatIKnow = () => {
     const initMarquee = () => {
       marquee = new InfiniteMarquee({
         element: container,
-        speed: 150000,
+        speed: 1000000,
         smoothEdges: true,
         direction: "left",
         spaceBetween: "30px",

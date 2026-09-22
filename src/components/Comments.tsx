@@ -18,7 +18,7 @@ export const Comments = () => {
     const initMarquee = () => {
       marquee = new InfiniteMarquee({
         element: container,
-        speed: 100000, // ✅ Slow and steady for many images (~25 seconds per loop)
+        speed: 1000000, // ✅ Slow and steady for many images (~25 seconds per loop)
         smoothEdges: true,
         direction: "left",
         spaceBetween: "30px",
