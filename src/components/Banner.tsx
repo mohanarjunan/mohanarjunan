@@ -1,6 +1,5 @@
 import React from "react";
 import { GridBackDrop } from "./banner/GridBackDrop";
-import Link from "next/link";
 
 export const Banner = () => {
   return (
@@ -15,13 +14,12 @@ export const Banner = () => {
           <div className="absolute right-8 bottom-1 dark:bottom-0 w-6 h-6 rounded-full border-4 border-dark-600 dark:border-dark-100 bg-green-600" />
           <div className="absolute animate-ping duration-1000 right-8 bottom-1 dark:bottom-0 w-6 h-6 rounded-full border-4 border-green-600 bg-green-600" />
         </div>
-        <div className="text-5xl mt-3 font-bold font-avenir text-dark-500 dark:text-dark-100">
+        <div className="text-5xl mt-3 font-bold font-avenir text-dark-500 dark:text-dark-100 -mb-2 md:mb-0">
           Mohan Arjunan
         </div>
         <div className=" font-avenir text-dark-300 dark:text-dark-200 ">
           Full Stack Development Enthusiast / DevOps
         </div>
-          <Link href={"contact"} className={"bg-white rounded-full px-5 py-2 border-2 border-white transition-all duration-200 hover:bg-transparent hover:text-white cursor-pointer z-99999"}>Contact Me</Link>
       </div>
     </>
   );
