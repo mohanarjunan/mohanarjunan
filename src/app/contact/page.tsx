@@ -61,6 +61,9 @@ export default function ContactPage() {
 
       setStatus("sent");
       form.reset();
+      setTimeout(() => {
+        setStatus("idle")
+      }, 2000)
     } catch (err) {
       setStatus("error");
       setErrorMsg(
@@ -155,7 +158,8 @@ export default function ContactPage() {
             />
           </div>
 
-          <button
+          <div className="flex items-center justify-between">
+            <button
             type="submit"
             className="rounded-sm bg-[#2F6F5E] px-6 py-3 text-[15px] font-medium text-[#F6F5F1]
                      hover:opacity-90
@@ -164,13 +168,8 @@ export default function ContactPage() {
           >
             Send message
           </button>
-
-          {sent && (
-            <p className="mt-3.5 text-sm text-[#2F6F5E] dark:text-[#5FB79E]">
-              Message ready — wire this form up to an API route or email service
-              to send it.
-            </p>
-          )}
+          <span className={`${status != 'idle' ? "text-surface-300 text-sm bg-light-200 px-5 py-1 rounded-full uppercase" : ""}`}>{status != 'idle' ? status : ""}</span>
+          </div>
         </form>
       </div>
     </div>
