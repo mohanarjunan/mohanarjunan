@@ -2,10 +2,10 @@
 
 import { Banner } from "@/components/Banner";
 import { Comments } from "@/components/Comments";
-import { DownloadResume } from "@/components/DownloadResume";
 import { EducationalCredentials2 } from "@/components/EducationalCredentials2";
 import { Experiences } from "@/components/Experiences";
 import { Footer } from "@/components/Footer";
+import { Navigation } from "@/components/Navigation";
 // import { EducationalCredentials1 } from "@/components/EducationalCredentials1";
 import { Quote } from "@/components/Quote";
 import { WhatIKnow } from "@/components/WhatIKnow";
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <main className="w-full h-screen main-body">
-        <DownloadResume />
+        <Navigation />
         <Banner />
         <WhoAmI />
         <WhatIKnow />

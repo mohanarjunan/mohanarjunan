@@ -3,7 +3,6 @@
 ## ❔ About Me
 
  - 🚀 **Software Engineer @ Finsurge Pte. Ltd.** | MCA Graduate 🎓
- - 🕵 **Freelance Developer** | Open to Collaborations
  - 💡 **Full-Stack Innovator** | Building Scalable & Robust Web Apps
  - ☁️ **Cloud & DevOps Enthusiast** | Code. Deploy. Elevate.
  - 🧶 **Crafting Clean, Performant, and Future-Ready Software**
@@ -86,17 +85,7 @@
 
 [![portfolio](https://img.shields.io/badge/Portfolio-black?logo=nextdotjs&logoColor=white&style=for-the-badge)](https://mohanarjunan.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/Linked_In-blue?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/mohanarjunan/)
-[![Twitter](https://img.shields.io/badge/Twitter-black?logo=x&logoColor=white&style=for-the-badge)](https://x.com/_dowdy_)
-[![Instagram](https://img.shields.io/badge/Instagram-pink?logo=instagram&logoColor=black&style=for-the-badge)](https://instagram.com/__dowdy/)
-[![Whatsapp](https://img.shields.io/badge/Whatsapp-darkgreen?logo=whatsapp&logoColor=white&style=for-the-badge)](https://wa.me/916374856198)
-[![Gmail](https://img.shields.io/badge/im.mohanarjunan@gmail.com-darkorange?logo=google&logoColor=white&style=for-the-badge)](mailto:im.mohanarjunan@gmail.com)
-[![Gmail](https://img.shields.io/badge/mohan.arjunan@hotmail.com-blue?&style=for-the-badge)](mailto:mohan.arjunan@hotmail.com)
+[![Gmail](https://img.shields.io/badge/itsmohanarjunan@gmail.com-darkorange?logo=google&logoColor=white&style=for-the-badge)](mailto:itsmohanarjunan@gmail.com)
+[![Gmail](https://img.shields.io/badge/mohan.arjunan@outlook.in-blue?&style=for-the-badge)](mailto:mohan.arjunan@outlook.in)
 
 </div>
-<hr/>
-
-## 🌱 Stats
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mohanarjunan&layout=compact&theme=github)
-![Mohan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mohanarjunan&show_icons=true&theme=github&rank_icon=github)  
-![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohanarjunan&theme=github)
